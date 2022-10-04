@@ -1,25 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   fractol.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tfockede <tfockede@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/29 17:37:47 by tfockede          #+#    #+#             */
-/*   Updated: 2022/10/04 17:11:25 by tfockede         ###   ########.fr       */
+/*   Created: 2022/10/04 17:43:58 by tfockede          #+#    #+#             */
+/*   Updated: 2022/10/04 17:44:57 by tfockede         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libraries/libft_updated/base/libft.h"
-#include "libraries/libft_updated/printf/ft_printf.h"
+#ifndef FRACTOL_H
+# define FRACTOL_H
 
-
-void main(void)
-{
-	int a = 0;
-	int b = 2;
-	int c = 4;
-
-	a = ft_isalnum(c);
-	ft_printf("%d\n", a);
-}
+#endif
